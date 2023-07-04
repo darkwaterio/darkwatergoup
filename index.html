@@ -1,93 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Water Group</title>
-  <style type="text/css">
-    body {
-      overflow: hidden;
-    }
+        <title>Coming Soon</title>
 
-    #background-video {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-    }
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    .logo-holder {
-      width: 100vw;
-    }
+    <body>
+        <div class="container">
+            <div class="background">
+                <video src="media/dwbackvideoslow.mp4" autoplay loop muted poster="media/dwbackposter.jpg"></video>
+            </div>
 
-    .logo {
-      width: 200px;
-      margin: 50px;
-    }
+            <h1>Coming Soon</h1>
 
-    img,
-    svg {
-      filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
-    }
-
-    .text-block {
-      position: absolute;
-      bottom: 30px;
-      width: 100vw;
-      text-align: center;
-    }
-
-    .text-block h2 {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: #ffffff;
-      text-shadow: 3px 5px 2px rgb(0 0 0 / 0.4);
-      font-size: xxx-large;
-    }
-
-    @media screen and (max-width: 500px) {
-      #background-video {
-        display: none;
-      }
-
-      body {
-        background: url("media/dwbackposter.jpg") no-repeat;
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-        background-position: center;
-      }
-
-      .logo-holder {
-        text-align: center;
-      }
-
-      .logo {
-        width: 33%;
-      }
-
-      .text-block h2 {
-        font-size: xx-large;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <video id="background-video" autoplay loop muted poster="media/dwbackposter.jpg">
-    <source src="media/dwbackvideoslow.mp4" type="video/mp4">
-  </video>
-  <div class="logo-holder">
-    <img src="media/darkwaterlarge.svg" class="logo" alt="dark water" />
-  </div>
-  <div class="text-block">
-    <h2></h2>
-  </div>
-</body>
-
+            <div class="sm">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </body>
 </html>
