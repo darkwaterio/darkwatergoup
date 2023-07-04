@@ -42,11 +42,9 @@ body {
 
 #logoimage {
     width: 100px;
-    /* margin-bottom: 100px; */
     position: absolute;
     top: 50px;
     left: 50px;
-    /* display: none; */
 }
 
 h1 {
