@@ -40,6 +40,15 @@ body {
     z-index: -1;
 }
 
+#logoimage {
+    width: 100px;
+    /* margin-bottom: 100px; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /* display: none; */
+}
+
 h1 {
     font-size: 80px;
     margin-bottom: 60px;
